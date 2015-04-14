@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Service settings"/>
+    <ListPreference
+        android:title="Toast duration"
+        android:summary="Select the toast duration"
+        android:key="toastDuration"
+        android:defaultValue="2"
+        android:entries="@array/listArray"
+        android:entryValues="@array/listValues" />
+
+    <CheckBoxPreference
+        android:title="Copy translated text"
+        android:summary="Copy translated text in your clipboard"
+        android:key="mustCopy"
+        android:defaultValue="false"/>
+
+    <CheckBoxPreference
+        android:title="Show notification"
+        android:summary="Show a notification in your status bar"
+        android:key="mustShowNotification"
+        android:defaultValue="false"/>
+
+    <CheckBoxPreference
+        android:title="Start service on boot"
+        android:summary="Automatically start service on boot"
+        android:key="mustStartOnBoot"
+        android:defaultValue="true"/>
+
+</PreferenceScreen>

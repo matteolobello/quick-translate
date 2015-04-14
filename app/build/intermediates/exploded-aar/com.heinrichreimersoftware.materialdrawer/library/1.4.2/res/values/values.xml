@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Agando/AndroidStudioProjects/libraries/material-drawer/library/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="md_divider">#1f000000</color>
+    <color name="md_drawer_background">#f5f5f5</color>
+    <color name="md_fixed_list_shadow_end">#18000000</color>
+    <color name="md_fixed_list_shadow_start">#0000</color>
+    <color name="md_header">#6a000000</color>
+    <color name="md_inset_foreground">#6a000000</color>
+    <color name="md_primary">#000</color>
+    <color name="md_scrim_end">#8a000000</color>
+    <color name="md_scrim_start">#0000</color>
+    <color name="md_selected">#14000000</color>
+    <declare-styleable name="DrawerFrameLayout"><attr format="dimension" name="drawerMaxWidth"/></declare-styleable>
+    <declare-styleable name="LinearListView"><attr name="android:entries"/><attr format="dimension" name="dividerThickness"/></declare-styleable>
+    <!-- From: file:/C:/Users/Agando/AndroidStudioProjects/libraries/material-drawer/library/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="md_avatar_size">40dp</dimen>
+    <dimen name="md_baseline_content">72dp</dimen>
+    <dimen name="md_baseline_end">16dp</dimen>
+    <dimen name="md_baseline_start">16dp</dimen>
+    <dimen name="md_big_avatar_size">64dp</dimen>
+    <dimen name="md_divider_height">1dp</dimen>
+    <dimen name="md_divider_margin">8dp</dimen>
+    <dimen name="md_drawer_list_margin_vertical">8dp</dimen>
+    <dimen name="md_drawer_max_width">400dp</dimen>
+    <dimen name="md_fixed_list_shadow_height">4dp</dimen>
+    <dimen name="md_icon_size">24dp</dimen>
+    <dimen name="md_list_item_height">48dp</dimen>
+    <dimen name="md_list_item_height_two_line">72dp</dimen>
+    <dimen name="md_list_item_margin">16dp</dimen>
+    <dimen name="md_list_item_text_secondary_margin">0dp</dimen>
+    <!-- From: file:/C:/Users/Agando/AndroidStudioProjects/libraries/material-drawer/library/src/main/res/values/ids.xml -->
+    <eat-comment/>
+    <item name="mdAvatarProfile" type="id"/>
+    <item name="mdBackgroundProfile" type="id"/>
+    <item name="mdDescriptionProfile" type="id"/>
+    <item name="mdDivider" type="id"/>
+    <item name="mdDrawer" type="id"/>
+    <item name="mdFixedListContainer" type="id"/>
+    <item name="mdHeaderRoot" type="id"/>
+    <item name="mdHeaderTitle" type="id"/>
+    <item name="mdHeaderTitleRoot" type="id"/>
+    <item name="mdImage" type="id"/>
+    <item name="mdLayout" type="id"/>
+    <item name="mdLayoutProfile" type="id"/>
+    <item name="mdLayoutProfileContent" type="id"/>
+    <item name="mdLinearListView" type="id"/>
+    <item name="mdLinearListViewFixed" type="id"/>
+    <item name="mdNameProfile" type="id"/>
+    <item name="mdRoot" type="id"/>
+    <item name="mdScrollView" type="id"/>
+    <item name="mdTextPrimary" type="id"/>
+    <item name="mdTextRoot" type="id"/>
+    <item name="mdTextSecondary" type="id"/>
+</resources>

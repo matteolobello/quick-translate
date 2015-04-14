@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.heinrichreimersoftware.materialdrawer.DrawerView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/mdDrawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:fitsSystemWindows="true"/><!-- From: file:/C:/Users/Agando/AndroidStudioProjects/libraries/material-drawer/library/src/main/res/layout/md_drawer_frame_layout.xml --><!-- From: file:/Users/Local/AndroidStudioProjects/QuickTranslate/app/build/intermediates/exploded-aar/com.heinrichreimersoftware.materialdrawer/library/1.4.2/res/layout/md_drawer_frame_layout.xml -->

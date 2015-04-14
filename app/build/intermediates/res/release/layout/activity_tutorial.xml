@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#ff2196f3">
+
+    <ViewFlipper
+        android:id="@+id/viewflipper"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="1. Enable Service"
+                android:textColor="#ffffff"
+                android:textSize="25dp">
+            </TextView>
+
+            <ImageView
+                android:layout_marginTop="15dp"
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/screenshot1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="75dp"
+                android:text="4. Enjoy your translation"
+                android:textColor="#ffffff"
+                android:textSize="25dp">
+            </TextView>
+
+            <ImageView
+                android:layout_marginTop="15dp"
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/screenshot4" />
+
+            <com.melnykov.fab.FloatingActionButton
+                android:id="@+id/fab"
+                android:src="@drawable/check_white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:onClick="clickedDone"
+                android:layout_marginBottom="75dp"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="3. Copy the text to translate"
+                android:textColor="#ffffff"
+                android:gravity="center"
+                android:textSize="25dp">
+            </TextView>
+
+            <ImageView
+                android:layout_marginTop="15dp"
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/screenshot3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Select your language"
+                android:textColor="#ffffff"
+                android:textSize="25dp">
+            </TextView>
+
+            <ImageView
+                android:layout_marginTop="15dp"
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/screenshot2" />
+        </LinearLayout>
+
+    </ViewFlipper>
+</LinearLayout><!-- From: file:/Users/Local/AndroidStudioProjects/QuickTranslate/app/src/main/res/layout/activity_tutorial.xml -->

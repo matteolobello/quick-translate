@@ -1,0 +1,11 @@
+/Users/Local/AndroidStudioProjects/QuickTranslate/app/build/intermediates/classes/release
+/Users/Local/AndroidStudioProjects/QuickTranslate/app/build/intermediates/pre-dexed/release/support-annotations-21.0.3-a9e7e4e72b61354267f10d3374e9790ff9073714.jar
+/Users/Local/AndroidStudioProjects/QuickTranslate/app/build/intermediates/pre-dexed/release/classes-6ab5e39e2f3340a788657c5e6e556b8c4e497c86.jar
+/Users/Local/AndroidStudioProjects/QuickTranslate/app/build/intermediates/pre-dexed/release/classes-bfc034af1abac1807783e8e3cb3256acb52e838a.jar
+/Users/Local/AndroidStudioProjects/QuickTranslate/app/build/intermediates/pre-dexed/release/classes-9aba1972fc62468065a3f0cd0a02e6e2184eebcd.jar
+/Users/Local/AndroidStudioProjects/QuickTranslate/app/build/intermediates/pre-dexed/release/microsoft-translator-java-api-0.6.2-jar-with-dependencies-d2083485564b66610b9c057469a223791c4ba4d6.jar
+/Users/Local/AndroidStudioProjects/QuickTranslate/app/build/intermediates/pre-dexed/release/library-2.4.0-54520b6b2f8580cff0cd776e59b04a15627dc638.jar
+/Users/Local/AndroidStudioProjects/QuickTranslate/app/build/intermediates/pre-dexed/release/internal_impl-21.0.3-d802d81678532e2a3d7b17038edaf41f591ef406.jar
+/Users/Local/AndroidStudioProjects/QuickTranslate/app/build/intermediates/pre-dexed/release/classes-47c37495ff5737922a560b2992d9db194f5974a6.jar
+/Users/Local/AndroidStudioProjects/QuickTranslate/app/build/intermediates/pre-dexed/release/classes-eacb2708702d45eaf782add81f6cc327c3f74d18.jar
+/Users/Local/AndroidStudioProjects/QuickTranslate/app/build/intermediates/pre-dexed/release/classes-2894cc15d8a5b542d20ebf3ea4ce7688a286c510.jar

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rotate
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fromDegrees="0"
+    android:toDegrees="360"
+    android:pivotX="50%"
+    android:pivotY="50%"
+    android:interpolator="@anim/interpolator"
+    android:duration="600" /><!-- From: file:/Users/Local/AndroidStudioProjects/QuickTranslate/app/src/main/res/anim/rotate.xml -->

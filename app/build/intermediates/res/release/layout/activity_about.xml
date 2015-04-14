@@ -1,0 +1,182 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lob.quicktranslate.AboutActivity">
+
+    <com.heinrichreimersoftware.materialdrawer.DrawerFrameLayout
+        android:id="@+id/drawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <View
+                    android:id="@+id/header"
+                    android:background="@color/primaryDef"
+                    android:layout_width="match_parent"
+                    android:layout_height="128dp" />
+
+                <View
+                    android:id="@+id/body"
+                    android:layout_width="match_parent"
+                    android:layout_height="4dp"
+                    android:background="@android:color/transparent"
+                    android:layout_below="@id/header"/>
+
+                <at.markushi.ui.RevealColorView
+                    android:layout_width="wrap_content"
+                    android:layout_height="128dp"
+                    android:id="@+id/reveal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="78dp"
+                    android:layout_marginLeft="72dp"
+                    android:textColor="#ffffff"
+                    android:textSize="22dp"
+                    android:text="QuickTranslate"
+                    android:id="@+id/textView" />
+
+                <com.melnykov.fab.FloatingActionButton
+                    android:id="@+id/fab"
+                    android:src="@drawable/color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignBottom="@id/header"
+                    android:layout_marginBottom="-25dp"
+                    android:layout_marginRight="20dp"/>
+
+                <ImageView
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:layout_marginLeft="24dp"
+                    android:id="@+id/imageView2"
+                    android:src="@drawable/hamburger"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="28dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="                   "
+                    android:id="@+id/textView2"
+                    android:layout_below="@+id/body"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="45dp" />
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:id="@+id/big_tab"
+                    android:background="@drawable/background_card"
+                    android:layout_below="@+id/textView7">
+
+                    <ImageView
+                        android:layout_width="88dp"
+                        android:layout_height="88dp"
+                        android:id="@+id/icLauncher"
+                        android:src="@drawable/ic_launcher_blue"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="25dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="QuickTranslate 1.2"
+                        android:textSize="22dp"
+                        android:id="@+id/textView3"
+                        android:layout_below="@+id/icLauncher"
+                        android:layout_centerHorizontal="true" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Developed by:"
+                        android:id="@+id/textView4"
+                        android:layout_marginTop="22dp"
+                        android:layout_below="@+id/textView3"
+                        android:layout_centerHorizontal="true" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Matteo Lobello, student and Android enthusiast"
+                        android:id="@+id/textView5"
+                        android:layout_below="@+id/textView4"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="center" />
+
+                    <ImageView
+                        android:layout_width="62dp"
+                        android:layout_height="62dp"
+                        android:id="@+id/github"
+                        android:src="@drawable/github"
+                        android:layout_alignParentBottom="true"
+                        android:layout_toLeftOf="@+id/textView3"
+                        android:layout_toStartOf="@+id/textView3" />
+
+                    <ImageView
+                        android:layout_width="62dp"
+                        android:layout_height="62dp"
+                        android:id="@+id/gplus"
+                        android:src="@drawable/gplus"
+                        android:layout_alignParentBottom="true"
+                        android:layout_toRightOf="@+id/textView3"
+                        android:layout_toEndOf="@+id/textView3" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/paypal"
+                        android:src="@drawable/paypal"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_alignTop="@+id/github" />
+
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="               "
+                    android:id="@+id/textView6"
+                    android:layout_alignBottom="@+id/fab"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="          "
+                    android:id="@+id/textView7"
+                    android:layout_below="@+id/textView6"
+                    android:layout_alignLeft="@+id/big_tab"
+                    android:layout_alignStart="@+id/big_tab" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+    </com.heinrichreimersoftware.materialdrawer.DrawerFrameLayout>
+</RelativeLayout>
+<!-- From: file:/Users/Local/AndroidStudioProjects/QuickTranslate/app/src/main/res/layout/activity_about.xml -->
