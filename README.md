@@ -1,6 +1,7 @@
 # QuickTranslate
 
-Download link: https://play.google.com/store/apps/details?id=com.lob.quicktranslate
+# Deprecated
+Google included this feature inside Android 6.0 Marshmallow.
 
 Library used:
 - Microsoft Translator Java API
